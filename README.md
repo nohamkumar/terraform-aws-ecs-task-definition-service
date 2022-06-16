@@ -48,7 +48,7 @@ Example:
 
 ```
 module "ecs-td-service
-  source      = "git@github.com:studiographene/tf-modules.git//ecs-task-definition-service"
+  source      = "git@github.com:nohamkumar/aws-ecs-task-definition-service.git"
   namespace   = "stg"
   environment = "dev"
 
